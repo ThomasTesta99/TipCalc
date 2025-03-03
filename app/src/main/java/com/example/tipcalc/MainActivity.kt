@@ -55,3 +55,9 @@ fun TipCalcLayout(){
         Spacer(modifier = Modifier.height(150.dp))
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun TipCalcLayoutPriview(){
+    TipCalcTheme { TipCalcLayout() }
+}
